@@ -2,8 +2,9 @@
 
 ## Big Data 
 
-After connecting to the dataset via spark, we noticed that there are intricate schema, so we narrowed it down to fewer features: 
-* columns = <br>
+After connecting to the dataset via spark, we noticed that there are intricate schema, so we narrowed it down to fewer features:
+
+* columns we picked:  <br>
     name, tweet(text), followers count, friends count, language, hashtags, time zone, time stamps, verified, retweet count, favorite count. 
 * We only used 20% of samples from french_tweets.json. 
 
@@ -26,9 +27,13 @@ Changed the date type from string to datetime object.
 
 ![](images/code_for_volume.png)
 
-## 
+And plotted tweets over time. 
+We can see that the tweets peaked at the end of April, which makes sense because the election concluded on May 7th. 
 
 ![](images/volume.png)
 
+It still looks rough the correlation between friends and followers and between favorite and retweets make intuitive sense but there should be some correlation between favorite and retweets on followers. The first attempt at heatmap revealed that the key we pulled initially had no meaningful values. 
+
+![](images/try2.png)
 
 
