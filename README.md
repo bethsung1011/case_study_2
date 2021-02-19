@@ -46,4 +46,11 @@ We have some difficulty to clean the text. We do come up with peice of helper fu
 
 ![](images/helpers.png)
 
- 
+
+## Ideas for future direction:
+
+* Analyzing sentiments in tweet strings to see who favors who.
+* Seeing frequency of hashtag use
+* NLTK (getting rid of French Stopwords)
+
+![](images/conclusion.jpg)
