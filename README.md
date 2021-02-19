@@ -1,4 +1,8 @@
-# case_study_2
+# Case Study
+
+# French Election Tweets 
+
+![](images/banner.png)
 
 ## Big Data 
 
@@ -36,4 +40,10 @@ It still looks rough the correlation between friends and followers and between f
 
 ![](images/try2.png)
 
+## What to do next
 
+We have some difficulty to clean the text. We do come up with peice of helper function. We will work on to get it fully functional. 
+
+![](images/helpers.png)
+
+ 
